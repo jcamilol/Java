@@ -1,0 +1,14 @@
+///////////////
+ Let's program
+///////////////
+
+*Explaining the "Hello World program":
+
+**class Hello
+	Hello is just the name of a class. For execute we need also the type of the class (i.e. <java Hello>)
+
+**public static void main(String[] args)
+	It is the main method. For all codes, the main method is executed first. So, it's not able to execute a code without the main method
+
+**System.out.print()
+	 print is a function which is available in System directory. It is used to display something on the screen
