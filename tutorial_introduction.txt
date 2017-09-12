@@ -1,0 +1,25 @@
+///////////////////////
+ Introduction to Java  
+///////////////////////
+
+*JDK, JRE and JVM
+ 
+** Java Development Kit (JDK)
+	
+	Java Developer kit contains tools such as compilers needed to develop the Java programs. A compiler converts Java code into bytecode
+
+** Java Virtual Machine (JVM)
+
+	It is a virtual machine that runs the Java bytecodes
+
+** Java Runtime Enviroment (JRE)
+
+	Java Runtime Enviroment contains JVM, class libraries, and other supporting files. Actually, JVM runs the program and it uses the class libraries and other supporting files provided in JRE.
+
+*How to start?
+
+	Open a new file with .java extension in your favorte text editor
+	
+	To compile the program type "javac filename.java"
+
+	To run the program, type "java classname" (name of the class which is wrtitten after class in the code)
