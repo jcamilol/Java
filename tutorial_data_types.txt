@@ -1,0 +1,60 @@
+/////////////////
+ Know data types
+/////////////////
+
+**Most commonly used data types in Java are int (integer), char (character), float (number having decimal), double (number having decimal), String (collection of characers) and boolean (true or false)
+
+**The following information states different data types along with the maximum and minimum value they can take
+
+    Data type: int
+    Maximum value: 2 147 483 647
+    Minimum value:-2 147 483 648
+
+    Data type: float
+    Maximum value: 3.4028235e38
+    Maximum value: 1.4e-45
+
+    Data type: double
+    Maximum value: 1.7976931348623157e308
+    Maximum value: 4.9e-324
+
+    Data type: char
+    Maximum value: 65 535
+    Minimum value: 0
+
+    Data type: short
+    Maximum value: 32 767
+    Minimum value:-32 768
+
+    Data type: long
+    Maximum value: 9223372036854775807
+    Minimum value:-9223372036854775808
+
+**Primitive and non primitive data types
+
+  All the data types are broadly classified into primitive and non primitive
+
+      **Primitive data type
+
+      There are eight predefined data types in Java wich are:
+
+      int float double short long char boolean byte
+
+      **Non-primitive data type
+
+      Non-primitive data type refers to an object
+
+**Type casting
+
+  Type casting is the conversion of a variabe from one data type to another data type
+
+  Type conversions are of two types: implicit and explicit
+
+       **Implicit conversion
+
+       **Explicit conversion
+
+         We can also convert values from one data type to another as follows:
+
+	 (data-type) expression;
+       
