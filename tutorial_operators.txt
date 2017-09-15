@@ -1,0 +1,55 @@
+///////////
+ Operators
+///////////
+
+The operators that provide Java can be classified as follows:
+
+    Arithmetic Operators
+    Relational Operators
+    Increment and Decrement Operators
+    Logical Operators
+    Assignment Operators
+
+    **Arithmetic Operations
+
+    Arithmetic operators in Java are the same that are used in algebra, which are "+", "-", "*", "/" and "%"
+
+    **Relational operators
+
+    Following are the relationship operators in Java which return true if the relationship is true and false if the ralationship is false: "==", "!=", ">", "<", ">=" and "<="
+
+    **Logic operators
+
+    The logic operators in Java are "&&", "||" and "!" which designes "and", "or" and "not" respectively
+
+    In Logical And (&&) operator, if any one of the expressions is false, the condition is false, the condition becomes false. Therefore, for the condition become true, both condition must be true.
+
+    For Logic Or (||) operator, the condition is false only when both the expressions are false. If any one expression is true, the condition returns true.
+
+    Logical Not (!) operator converts true to false and vice versa.
+
+    **Assignment operators
+
+    Java provides the following assignment operators which values from its right side operands to its left side operands
+
+    = , += , -= , *= , /= , %= . For example, A%=B is given as A=A%B, etc.
+
+    **Increment and Decrement Operators
+
+    ++ and -- are called increment and decrement operators respectively
+
+    ++ adds 1 to the operand whereas -- substracts 1 from the operand
+
+    In a++ and a--, ++ and -- are used as "postfix" whereas in ++a and --a, ++ and -- are used as "prefix"
+
+       ***Difference between Prefix and Postfix
+
+       The Prefix operand first increases the value of the operand and then ruturn the value, while the Postfix operand first return the value of the operand and then increases it.
+
+    **Let's import maths
+
+    For maths functions, include Math class, under the package java.lang
+
+    "Import java.lang.*;" imports all the classes of java.lang package
+
+    "Import java.lang.Math;" import only tha Math class of java.lang package
