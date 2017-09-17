@@ -1,0 +1,33 @@
+///////////////
+ Input by user
+///////////////
+
+    In java we input with the help of the "Scanner" class. This "Scanner" class is found in "java.util" package.
+    Afer impoting we need to write the following statement in our porgram:
+        
+        Scanner s = new Scanner (System.in) 
+
+    Here by writing Scanner s, we are declaring s as an object of Scanner class.
+    System.in whitin brackets tells Java that this will be System Input i.e. input will be given to the system.
+
+    **How to input
+
+        Consider the following code to take a value from a user:
+
+        int n;
+        n = s.nextInt () // s is an object of the Scanner class
+
+        Statement n = s.nextInt() is used to input the value of an integer variable 'n' from the user.
+        Here, nextInt() is a method of object s of the Scanner class.
+
+        Similarly, we can input values of other data types also. Same as nextInt() is used to input an integer value, methods to input values of other data types are listed below
+
+        METHOD       |    INPUT         
+        nextInt()      Integer
+        nextFloat()    Float   
+        nextDouble()   Double
+        nextLong()     Long
+        nextShort()    Short
+        next()         Single word
+        nextLine()     Line of Strings
+        nextBoolean    Boolean
