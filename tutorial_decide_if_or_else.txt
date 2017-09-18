@@ -1,0 +1,29 @@
+///////////////////
+ Decide if or else
+///////////////////
+
+    **if statement 
+
+        if(expression)
+        {
+            statements
+        }
+
+        if the expression written within the brackets of if statement is true, then the statement written in the body of the if (enclosed by curly brackets) are executed
+    
+    **if...else statement
+
+        if(expression)
+        {
+            statements 1
+        }
+        else
+        {
+            statements 2
+        }
+
+        if the expression is true, statements 1 are executed. Otherwise, statements 2 are executed.
+
+    **Nested if/else statements
+
+        We can also use if or else inside another if or else statements
