@@ -27,3 +27,25 @@
     **Nested if/else statements
 
         We can also use if or else inside another if or else statements
+
+    **else if statement
+
+    **Switch...case
+
+        Normally, if we have to choose one case among many choices, nested if-else is used. But if the number of chices is large, switch...case is a better option as it makes code neat and easier.
+
+        switch(expression)
+        {
+            case constant1:
+                statements;
+                break;
+            case constant2:
+                statements;
+                break;
+            /*you can give any number of cases*/
+            default:
+                statements;
+        }
+
+        In switch...case, value of the expression enclosed in the brackets () following switch is checked. If the value of the expression matches the value of the constant in case, the statements corresponding with that case will be executed.
+        If the expression does not match any of the constant values, then the statements corresponding with default are executed.
