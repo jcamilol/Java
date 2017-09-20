@@ -1,0 +1,46 @@
+////////////////
+ Loop loop loop
+////////////////
+
+    Broadly classifying, there are three types of loops in Java programming wich are:
+
+        1. while loop
+        2. for loop
+        3. do...while loop
+    
+    ** While loop
+
+        while (condition)
+        {
+            statemetns
+        }
+
+        while loop checks whether the condition written in ( ) is true. 
+        If the condition is true, statements written in the body of the while loop i.e. inside the braces { } are executed.
+        Then, again the condition is checked, and if found true, again the statements inside body of the while loop are executed. 
+        This process continues until the condition becomes false.
+
+    ** for loop
+
+        for (initializacion; condition; propagation)
+        {
+            statements
+        }
+    
+    ** do...while
+
+        This is another kind of loop. This is just like while and for loop, but the only difference is that the code int this body is executed once before checking the conditions.
+
+        do{
+            statements
+        }
+        while(condition);
+
+    ** Nesting of loop
+
+        Like in "if/else" we can also use one loop inside another. This is called nesting of loop.
+
+    ** Infinite loop
+
+        There may exist some loops that iterate or occur infinitely. These are called Infinite Loop. Those loops occur infinitely because their condition is always true.
+        
