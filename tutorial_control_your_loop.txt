@@ -1,0 +1,15 @@
+///////////////////
+ Control your loop
+///////////////////
+
+    In java, we can jump out of a loop or jump to the starting condition of a loop whenever we want.
+    We do this with the help of break and continue statements respectively.
+
+    **break
+
+    break is used to break or terminate a loop whenever we want.
+
+    **continue
+
+    The continue statement works similar to break statement. The only difference is that break statement treminates the loop whereas continue statement pass control to the conditional test i.e. where the conditon is checked.
+    
