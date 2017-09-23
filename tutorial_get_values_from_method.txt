@@ -1,0 +1,11 @@
+////////////////////////
+ Get values from method
+////////////////////////
+
+    In this section we will learn to write methods wich return something.
+
+    **Calling a method inside another
+
+    **Recursion
+
+        Recursion is the calling of a method whitin the same method.
