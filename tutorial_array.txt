@@ -1,0 +1,68 @@
+///////
+ Array
+///////
+
+    An array is a collection. In java, an array is a collection of similar things. An array of int will contain only int, an array of double will contain only double, etc.
+    
+    **Why array?
+
+    **Declaration of array
+
+        int[] z = new int[10];
+
+        Normally, we declare and assign a value to a variable as follows:
+
+            int x;
+            x = 50;
+
+        For an array we do the same as follows
+
+            int[] z = new int[10];
+            z[0] = 50;
+
+        If we know the elements of an array, then we can also declare the array and assign values to the its variables as follows:
+
+            int[] x = {23,32,15,47,12};
+
+        java has a predefined function to get the lenght of an array (number of elements in an array), which is "name of array".length
+
+    **For-each loop
+
+        The For-each loop is used to iterate over an array.
+
+    **2D arrays
+
+        2-dimensional arrays are generally knows as matrix. There consist of rows and colums
+
+    **Declaration of 2D array
+
+        We define 2-dimensional arrays as follows:
+
+            int[][] a = new int[i][j];
+
+            where i indicates the number of rows and colums the number of colums (both begining in 0)
+
+        Now let's assign values to the elements of the 2-dimensional array.
+    
+    **Initializacion of 2D array
+
+        We can assign values to a 2-dimensional array in the same way we assign values to a 1-dimensional array.
+
+        In the first way, just assign a value to the elements of the array.
+
+        Suppose we declare a matrix a[2][2]. After declaring it, we assign its elements as follows: 
+
+            int[][] a = new int[2][2];
+            a[0][0] = 1;
+            a[0][1] = 2;
+            a[1][0] = 3;
+            a[1][1] = 4;
+
+        The second way is to delare and assign values at the same time where each inner curly bracket represent one row:
+
+            int a[2][2] = {
+                {1,2},
+                {3,4}
+            };
+
+    **Use of 2D array 
