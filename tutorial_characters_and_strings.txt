@@ -68,5 +68,5 @@
 
       We have two objects with different memory and the same value "Welcome"
 
-      In the equals() method, if the content of the two strings are equals, then the method consider both objects as equals
+      In the equals() method, if the content of the two strings are equals, then the method consider both objects as equals.
     

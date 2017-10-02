@@ -4,25 +4,25 @@ class code{
         char nota = 'B';
         switch (nota){
             case 'A':
-            System.out.println("Excelente");
-            break;
+                System.out.println("Excelente");
+                break;
             case 'B':
-            System.out.println("Sobresaliente");
-            break;
+                System.out.println("Sobresaliente");
+                break;
             case 'C':
-            System.out.println("Bien");
-            break;
+                System.out.println("Bien");
+                break;
             case 'D':
-            System.out.println("Puede ser mejor");
-            break;
+                System.out.println("Puede ser mejor");
+                break;
             case 'E':
-            System.out.println("Apenas aprobó");
-            break;
+                System.out.println("Apenas aprobó");
+                break;
             case 'F':
-            System.out.println("Fallaste");
-            break;
+                System.out.println("Fallaste");
+                break;
             default:
-            System.out.println("Nota inválida");
+                System.out.println("Nota inválida");
         }
     }
 }

@@ -1,0 +1,8 @@
+///////////////////////
+ Have your own methods
+///////////////////////
+
+    Till now, we were writing our cods in the main method. In this chapter, we will learn at create our own methods.
+    In this chapter we will learn about void methods, and in the next chapter we will learn about methods wich return something
+
+    *public static: Keep in mind that since our main method is static, so to call our method from the main method, our method must be static
