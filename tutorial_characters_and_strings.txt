@@ -1,0 +1,72 @@
+////////////////////////
+ Characters and strings
+////////////////////////
+
+    **Characters
+
+      In java, characters are represented using Unicode. Unicode is an international character set representing all characters.
+      In java, char ranges from 0 to 65,535
+      Characters all always written within ' '
+
+    **strings
+
+      A string is an array of characters.
+      In java, string are objects.
+      To declare a string:
+
+        String S = "Hello";
+    
+      We can also declare it as:
+
+        String S = {'H','e','l','l','o'};
+
+      Here S is a object of the class String. Thus, 'S' is a String Object having value "Hello"
+
+      We can also create String objects using the "new" keyword. Here, the "new" keyword is used to create an object 's' of the class String:
+
+        String S = new String("Hello");
+
+    **String class methods
+
+      To use the methods of a String object we need to import the java.lang.String class in our code.
+
+      The String class methods are listed below:
+
+        Method 	                                                        Description
+        
+        char charAt(int index) 	                                        returns char value for particular index
+        int length() 	                                                returns string length
+        String substring(int startIndex) 	                            returns substring for given start index
+        String substring(int startIndex, int endIndex) 	                returns substring for given start index and end index
+        boolean equals(Object anotherObject) 	                        checks the equality of string with object
+        boolean isEmpty() 	                                            checks if string is empty
+        String concat(String str) 	                                    links two strings
+        String replace(char oldChar, char newChar) 	                    replaces old character with new character value in string
+        String replaceAll(String oldSubstring, String newSubstring) 	replaces each substring that matches oldSubstring with a substring that matches newSubstring in string
+        String toLowerCase() 	                                        returns string in lowercase
+        String toUpperCase() 	                                        returns string in uppercase
+        int indexOf(char ch) 	                                        returns index of specified character
+        int indexOf(char ch, int startIndex) 	                        returns index value of specified character starting with given index
+        int indexOf(String substring) 	                                returns index of specified substring
+        int indexOf(String substring, int startIndex) 	                returns index value of specified substring starting with given index
+        boolean contains(CharacterSequence t) 	                        checks if string contains the specified character sequence
+        String trim() 	                                                omits leading and trailing white spaces
+        boolean startWith(String str) 	                                checks if the string starts with the specified substring
+        boolean startWith(String str, int startIndex) 	                checks if the string starts with the specified substring starting from the specified index
+        boolean endsWith(String str) 	                                checks if the string ends with the specified substring
+        int compareTo(Object obj) 	                                    compares string with object
+        int compareTo(String anotherString) 	                        compares string with another string
+    
+    **Diference between "equals()" method and "=="
+
+      Whenever we create a new object, it is allocated some location in the memory.
+
+      If we declare two objects as follow,
+
+        String S1 = new String("Welcome");
+        String S2 = new String("Welcome");
+
+      We have two objects with different memory and the same value "Welcome"
+
+      In the equals() method, if the content of the two strings are equals, then the method consider both objects as equals
+    
