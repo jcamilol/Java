@@ -35,27 +35,27 @@
         Method 	                                                        Description
         
         char charAt(int index) 	                                        returns char value for particular index
-        int length() 	                                                returns string length
-        String substring(int startIndex) 	                            returns substring for given start index
+        int length() 	                                                  returns string length
+        String substring(int startIndex) 	                              returns substring for given start index
         String substring(int startIndex, int endIndex) 	                returns substring for given start index and end index
-        boolean equals(Object anotherObject) 	                        checks the equality of string with object
+        boolean equals(Object anotherObject) 	                          checks the equality of string with object
         boolean isEmpty() 	                                            checks if string is empty
         String concat(String str) 	                                    links two strings
         String replace(char oldChar, char newChar) 	                    replaces old character with new character value in string
-        String replaceAll(String oldSubstring, String newSubstring) 	replaces each substring that matches oldSubstring with a substring that matches newSubstring in string
-        String toLowerCase() 	                                        returns string in lowercase
-        String toUpperCase() 	                                        returns string in uppercase
-        int indexOf(char ch) 	                                        returns index of specified character
-        int indexOf(char ch, int startIndex) 	                        returns index value of specified character starting with given index
+        String replaceAll(String oldSubstring, String newSubstring) 	  replaces each substring that matches oldSubstring with a substring that matches newSubstring in string
+        String toLowerCase() 	                                          returns string in lowercase
+        String toUpperCase() 	                                          returns string in uppercase
+        int indexOf(char ch) 	                                          returns index of specified character
+        int indexOf(char ch, int startIndex) 	                          returns index value of specified character starting with given index
         int indexOf(String substring) 	                                returns index of specified substring
         int indexOf(String substring, int startIndex) 	                returns index value of specified substring starting with given index
         boolean contains(CharacterSequence t) 	                        checks if string contains the specified character sequence
         String trim() 	                                                omits leading and trailing white spaces
         boolean startWith(String str) 	                                checks if the string starts with the specified substring
         boolean startWith(String str, int startIndex) 	                checks if the string starts with the specified substring starting from the specified index
-        boolean endsWith(String str) 	                                checks if the string ends with the specified substring
+        boolean endsWith(String str) 	                                  checks if the string ends with the specified substring
         int compareTo(Object obj) 	                                    compares string with object
-        int compareTo(String anotherString) 	                        compares string with another string
+        int compareTo(String anotherString) 	                          compares string with another string
     
     **Diference between "equals()" method and "=="
 
