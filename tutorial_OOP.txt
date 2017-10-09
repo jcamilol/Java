@@ -1,1 +1,22 @@
-//
+/////
+ OOP
+/////
+
+    **Methods
+
+      Methods are of two types: class methods and instance methods
+
+        ***Class methods: Methods wich are defined for a class are class methods
+
+        ***Instance methods: Methods wich are defined for objects are instance methods
+
+      Let's look at an example. Let there be a 'Bike' class and 'bike1' be an object of it.
+      Now, a method 'is_checked' defined in the Bike class to return the checked condition of all the objects of the 'Bike' class is a CLASS METHOD.
+      Another method 'get_model' is defined only for the the 'bike1' object to get the model number is an INSTANCE METHOD.
+
+    **Inheritance
+
+        Many times we make a subclass of a class itself. The class whose subclass had been made is called superclass.
+        All shown methods and attributes of superclass will be shown by its subclass also.
+        And subclass may have some different attributes in addition to those as well.
+        Other names of superclass and subclass are base class and derived class respectively.
