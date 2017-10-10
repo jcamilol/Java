@@ -1,0 +1,34 @@
+/////////////////////
+ Classes and onjects
+/////////////////////
+
+    A method wich name is the same that the class name is called "constructor".
+    This method will be executed when objects of the class are created.
+    private is a modifier that restrict the direct use of the variable outside the class.
+
+    **Let's sum up these things
+
+        class Student - defining a class whose name is 'Student'
+        public Student(){ } - constructor
+        private String - private restricts the use of variable 'name' outside the 'Student' class directly.
+        public void setName() and public String getName() - Two methods
+        public static void main(String []args){} - main method ( will be executed first )
+        Student a = new Student(); - make object 'a' of 'Student' class.
+        a.setName - calling method 'setName' of 'Student' class over object 'a'.
+
+    **Constructor having some parameters
+
+    **Returning and pasing object in a method
+
+    If there is no constructor in a class, the compiler automatically creates a default constructor
+
+        Suppose we made a class Vehicle without any constructor, then automatically its constructor will be created with nothing in its body as follows
+
+        class Vehicle{
+            Vehicle(){}
+        }
+
+    **Use of static
+
+        'static' is used to make access to any data variable or method without making an object of that class.
+        If a method is static we directly use it on the class, without making any object of it.
