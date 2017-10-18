@@ -1,0 +1,12 @@
+//////////////////
+ Array of objects
+//////////////////
+
+    (código anexo: array_of_objects.java)
+
+    Let's go through this code.
+    Car[] c; - This line declares that c is an array of 'Car'.
+    c = new Car[10] - This line will create an array 'c' of 10 elements of class 'Car'.
+
+    Here, only an array is created and not objects of 'Car'. To create an object, we need to use the 'new' operator with the 'Car' class.
+    c[0] = new Car(800,111); - This line will create an object of 'Car' on 0th element of the array 'c' and assign 800 to power and 111 to serial_no of this object.
