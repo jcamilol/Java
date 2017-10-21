@@ -1,0 +1,46 @@
+//////////
+ Subclass
+//////////
+
+    **Modifiers
+
+      public: It allows our method or data member to be accesed from anywhere; from the same class or different class.
+
+      private: Any data member or method wich is private can be accessed only from its class. Accessing it from a different class will give you an error.
+
+      protected: It only allows methods or data members to be accessed from it class and subclasses.
+
+    
+    **Subclasses and superclasses
+
+      (Código anexo: subclass_of_superclass.java)
+
+      ***Undergraduate extends Student
+      
+        Undergraduate: Undergraduate is the name of a class wich is the subclass or derived class of Student class.
+        extends: 'extends' is used to make a subclass. Here it means that 'Undergraduate' is extending the 'Student' class or is a subclass of the 'Student' class.
+
+      *Both classes (Student and Undergraduate) have the methods with the same name (printAbout) but the definittion or statement of the methods are differents. These methods are callede "polymorphic methods"
+
+      *We can also write
+
+            Student a = new Undergraduate();
+
+      *when a variable is declared to be of some class it can be an instance of any of its subclasses.
+
+     </> An object of a subclass can access the methods of its superclass (if not private) but an object of a superclass can't access the methods of its subclasses.
+
+      *To make the 'printName' method accessible we can typecast the object 's' as follows:
+
+            ((undergraduate)s).printName();
+
+    
+      **Subclass with constructor
+
+        The subclasses can also have constructor. This constructor works same that in a "normal" class.
+
+
+      **Instance of
+
+        instanceof operator is used to check if an object is an instance of a class or not.
+        It returns true if a given object is an instance of the class, else it returns false.
